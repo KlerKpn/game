@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+}
+#wrapper{
+    width:600px;
+	margin:0 auto;
+}
+
+canvas{
+    cursor: none;
+}
+
