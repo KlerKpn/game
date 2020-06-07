@@ -76,7 +76,7 @@ const update = () => {
             enemy.splice(i,1)
             bullet.splice(j,1)
             
-            console.log('target hit counter: ' + count++ )
+            document.getElementById("count").innerHTML = `: ${count++}`
             }
         }
     }
